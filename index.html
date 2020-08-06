@@ -3,17 +3,14 @@
    <head>
       <title>CUSIT - HOME</title>
       <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+      <link rel="stylesheet" type="text/css" href="./css/master.css" />
    </head>
    <body>
       <nav class="navbar navbar-expand-lg navbar-light bg-light pl-5">
-         <a class="navbar-brand" href="#">CUSIT</a>
          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                <li class="nav-item active">
                   <a class="nav-link" href="#">Home</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
                </li>
                <li class="nav-item dropdown">
                   <a
@@ -25,20 +22,651 @@
                      aria-haspopup="true"
                      aria-expanded="false"
                   >
-                     Dropdown
+                     About
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <a class="dropdown-item" href="#">Action</a>
-                     <a class="dropdown-item" href="#">Another action</a>
-                     <div class="dropdown-divider"></div>
-                     <a class="dropdown-item" href="#">Something else here</a>
+                     <a class="dropdown-item" href="#">Leadership</a>
+                     <a class="dropdown-item" href="#">Administration</a>
+                     <a class="dropdown-item" href="#">Gallery</a>
                   </div>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Policies</a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a
+                     class="nav-link dropdown-toggle"
+                     href="#"
+                     id="navbarDropdown"
+                     role="button"
+                     data-toggle="dropdown"
+                     aria-haspopup="true"
+                     aria-expanded="false"
+                  >
+                     Faculty
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item" href="#">Computer Science</a>
+                     <a class="dropdown-item" href="#">Management Sciences</a>
+                     <a class="dropdown-item" href="#">Architecture</a>
+                     <a class="dropdown-item" href="#">Health Sciences</a>
+                     <a class="dropdown-item" href="#">Civil Engineering</a>
+                     <a class="dropdown-item" href="#"
+                        >Electrical Engineering</a
+                     >
+                     <a class="dropdown-item" href="#"
+                        >Mechanical Engineering</a
+                     >
+                     <a class="dropdown-item" href="#">English</a>
+                     <a class="dropdown-item" href="#">Mathematics</a>
+                     <a class="dropdown-item" href="#">Education</a>
+                  </div>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Offices</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Boards</a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a
+                     class="nav-link dropdown-toggle"
+                     href="#"
+                     id="navbarDropdown"
+                     role="button"
+                     data-toggle="dropdown"
+                     aria-haspopup="true"
+                     aria-expanded="false"
+                  >
+                     Research
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item" href="#">Thematic Areas</a>
+                     <a class="dropdown-item" href="#">Center of Excellence</a>
+                     <a class="dropdown-item" href="#">Research Journals</a>
+                     <a class="dropdown-item" href="#">Concept Papers</a>
+                     <a class="dropdown-item" href="#">Published Research</a>
+                     <a class="dropdown-item" href="#"
+                        >National Conference 2020</a
+                     >
+                  </div>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">QEC</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Accrediations</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Login</a>
                </li>
             </ul>
          </div>
       </nav>
-      <div class="container container-fluid">
-         lol
+      <div
+         id="carouselExampleIndicators"
+         class="carousel slide"
+         data-ride="carousel"
+      >
+         <ol class="carousel-indicators">
+            <li
+               data-target="#carouselExampleIndicators"
+               data-slide-to="0"
+               class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+         </ol>
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img
+                  src="./assets/slideshow/p1.png"
+                  class="d-block w-100"
+                  alt="..."
+               />
+            </div>
+            <div class="carousel-item">
+               <img
+                  src="./assets/slideshow/p2.jpg"
+                  class="d-block w-100"
+                  alt="..."
+               />
+            </div>
+         </div>
+         <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+         >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+         </a>
+         <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+         >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+         </a>
+      </div>
+      <div class="container container-fluid mt-5">
+         <section class="row">
+            <article class="col col-7">
+               <div
+                  id="carouselExampleFade"
+                  class="carousel slide carousel-fade"
+                  data-ride="carousel"
+               >
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <img
+                           src="./assets/offers/o1.jpg"
+                           class="d-block w-100"
+                        />
+                     </div>
+                     <div class="carousel-item">
+                        <img
+                           src="./assets/offers/o2.jpg"
+                           class="d-block w-100"
+                        />
+                     </div>
+                     <div class="carousel-item">
+                        <img
+                           src="./assets/offers/o3.jpg"
+                           class="d-block w-100"
+                        />
+                     </div>
+                     <div class="carousel-item">
+                        <img
+                           src="./assets/offers/o4.jpg"
+                           class="d-block w-100"
+                        />
+                     </div>
+                     <div class="carousel-item">
+                        <img
+                           src="./assets/offers/o5.jpg"
+                           class="d-block w-100"
+                        />
+                     </div>
+                     <div class="carousel-item">
+                        <img
+                           src="./assets/offers/o6.jpg"
+                           class="d-block w-100"
+                        />
+                     </div>
+                     <div class="carousel-item">
+                        <img
+                           src="./assets/offers/o7.jpg"
+                           class="d-block w-100"
+                        />
+                     </div>
+                     <div class="carousel-item">
+                        <img
+                           src="./assets/offers/o8.jpg"
+                           class="d-block w-100"
+                        />
+                     </div>
+                     <div class="carousel-item">
+                        <img
+                           src="./assets/offers/o9.jpg"
+                           class="d-block w-100"
+                        />
+                     </div>
+                     <div class="carousel-item">
+                        <img
+                           src="./assets/offers/o10.jpg"
+                           class="d-block w-100"
+                        />
+                     </div>
+                     <div class="carousel-item">
+                        <img
+                           src="./assets/offers/o11.jpg"
+                           class="d-block w-100"
+                        />
+                     </div>
+                  </div>
+                  <a
+                     class="carousel-control-prev"
+                     href="#carouselExampleFade"
+                     role="button"
+                     data-slide="prev"
+                  >
+                     <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                     ></span>
+                     <span class="sr-only">Previous</span>
+                  </a>
+                  <a
+                     class="carousel-control-next"
+                     href="#carouselExampleFade"
+                     role="button"
+                     data-slide="next"
+                  >
+                     <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                     ></span>
+                     <span class="sr-only">Next</span>
+                  </a>
+               </div>
+               <h1 class="mb-2 mt-3">A Few words about CUSIT</h1>
+               <p>
+                  City University of Science & Information Technology, (CUSIT)
+                  Peshawar is one of the first private-sector universities,
+                  chartered by the government of Khyber Pakhtunkhwa, recognized
+                  by the Higher Education Commission (HEC), Accredited by the
+                  Pakistan Engineering Council (PEC). The University as an
+                  extension of Peshawar Model Educational Institutes (PMEI)
+                  founded in 1979 with an aim to impart quality education at an
+                  affordable cost. Initially, a primary school was established
+                  by Muhammad Zahoor Sethi (Founder), comprising just one
+                  moderate campus with 300 students. But, in due course of time,
+                  the continuous efforts of our highly qualified faculty and
+                  dedicated management paid off and resulted in the
+                  establishment of nine separate school campuses, three degree
+                  college campuses for boys and two degree college campuses for
+                  girls, with a combined strength of over 23,000 students.
+               </p>
+               <h1 class="mb-2 mt-4">Why Choose Us</h1>
+               <p>
+                  To be one of the leading Universities that generates,
+                  propagates and disseminates Knowledge in cutting edge
+                  Sciences, Engineering and Technologies and Social Sciences to
+                  provide solutions to the contemporary problems and directions
+                  for the future.
+               </p>
+               <h1 class="mb-2 mt-4">Our Mission</h1>
+               <ol>
+                  <li>
+                     To deliver high quality academic programs in Sciences,
+                     Engineering Technologies, Social Sciences and Humanities,
+                     based on State of the Art Knowledge, Skills, Attitude.
+                  </li>
+                  <li>
+                     To attract and nurture quality minds (Students and Faculty
+                     of high caliber) who will contribute towards the national
+                     and global knowledge economy for the socio-economic
+                     development at regional and global levels.
+                  </li>
+                  <li>
+                     To develop and nurture strong research culture and climate
+                     within a dynamic, efficient and effective team of academic
+                     and support staff.
+                  </li>
+                  <li>
+                     To be financially self-sustaining through high quality
+                     education, cutting edge research, national and
+                     international collaboration and commercialization of R&D
+                     products and services.
+                  </li>
+               </ol>
+            </article>
+            <section class="col col-1"></section>
+            <section class="col col-4">
+               <h2 class="center">Our Amazing Features</h2>
+               <br />
+               <div class="card">
+                  <div class="card-body">
+                     <h5 class="card-title center">
+                        Professional Engineering Bodies
+                     </h5>
+                     <br />
+                     <div class="center">
+                        <a href="#" class="btn btn-primary">View</a>
+                     </div>
+                  </div>
+               </div>
+               <br />
+               <div class="card">
+                  <div class="card-body">
+                     <h5 class="card-title center">
+                        CUBIC
+                     </h5>
+                     <br />
+                     <div class="center">
+                        <a href="#" class="btn btn-primary">View</a>
+                     </div>
+                  </div>
+               </div>
+               <br />
+               <div class="card">
+                  <div class="card-body">
+                     <h5 class="card-title center">
+                        Faculty-Student Counsulting Program
+                     </h5>
+                     <br />
+                     <div class="center">
+                        <a href="#" class="btn btn-primary">View</a>
+                     </div>
+                  </div>
+               </div>
+               <br />
+               <div class="card">
+                  <div class="card-body">
+                     <h5 class="card-title center">
+                        City Think
+                     </h5>
+                     <br />
+                     <div class="center">
+                        <a href="#" class="btn btn-primary">View</a>
+                     </div>
+                  </div>
+               </div>
+               <br />
+               <div class="card">
+                  <div class="card-body">
+                     <h5 class="card-title center">
+                        Alumni Discussion Forum
+                     </h5>
+                     <br />
+                     <div class="center">
+                        <a href="#" class="btn btn-primary">View</a>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </section>
+         <h1 class="center mt-5 mb-3">Our Departments</h1>
+         <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-ride="carousel"
+         >
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <section class="row">
+                     <section class="col col-4">
+                        <div class="card d-block w-100">
+                           <img
+                              src="./assets/depts/cs.jpg"
+                              class="card-img-top"
+                           />
+                           <div class="card-body">
+                              <h5 class="card-title">Computer Science</h5>
+                              <p class="card-text">
+                                 The mission of the Computer Science Department
+                                 is to educate the youth with an in-depth
+                                 understanding of the theoretical & practical
+                                 concepts of computer science through a rigorous
+                                 course work and equip them with the
+                                 technological tools to meet the challenges in
+                                 their professional career or in pursuit of
+                                 advanced degrees in computer science.
+                              </p>
+                              <div class="right">
+                                 <a href="#" class="btn btn-primary"
+                                    >View More</a
+                                 >
+                              </div>
+                           </div>
+                        </div>
+                     </section>
+                     <section class="col col-4">
+                        <div class="card d-block w-100">
+                           <img
+                              src="./assets/depts/mgt.jpg"
+                              class="card-img-top"
+                           />
+                           <div class="card-body">
+                              <h5 class="card-title">
+                                 Management Sciences
+                              </h5>
+                              <p class="card-text">
+                                 The mission of the CUSIT's Business
+                                 Administration Department is to help the
+                                 students grow intellectually, professionally
+                                 and in personality so that they feel enabled,
+                                 empowered, and motivated to make significant
+                                 positive contributions to the organizations
+                                 they serve and to the society as a whole.
+                              </p>
+                              <div class="right">
+                                 <a href="#" class="btn btn-primary"
+                                    >View More</a
+                                 >
+                              </div>
+                           </div>
+                        </div>
+                     </section>
+                     <section class="col col-4">
+                        <div class="card d-block w-100">
+                           <img
+                              src="./assets/depts/edu.jpg"
+                              class="card-img-top"
+                           />
+                           <div class="card-body">
+                              <h5 class="card-title">Education</h5>
+                              <p class="card-text">
+                                 To Make perspective teachers with professional
+                                 excellence in order to give every child the
+                                 best possible education to start in life
+                                 successfully, to become a useful members of the
+                                 society and of the world and to develop
+                                 qualities of self realization and self
+                                 determination.
+                              </p>
+                              <div class="right">
+                                 <a href="#" class="btn btn-primary"
+                                    >View More</a
+                                 >
+                              </div>
+                           </div>
+                        </div>
+                     </section>
+                  </section>
+               </div>
+               <div class="carousel-item">
+                  <section class="row">
+                     <section class="col col-4">
+                        <div class="card d-block w-100">
+                           <img
+                              src="./assets/depts/mts.jpg"
+                              class="card-img-top"
+                           />
+                           <div class="card-body">
+                              <h5 class="card-title">Mathematics</h5>
+                              <p class="card-text">
+                                 The Department of Mathematics at City
+                                 University of Science & Information Technology
+                                 will offer courses and programs of study that
+                                 will ensure to minimize the gap between
+                                 academia and industry and the student learner
+                                 will be able to contribute to today's society.
+                              </p>
+                              <div class="right">
+                                 <a href="#" class="btn btn-primary"
+                                    >View More</a
+                                 >
+                              </div>
+                           </div>
+                        </div>
+                     </section>
+                     <section class="col col-4">
+                        <div class="card d-block w-100">
+                           <img
+                              src="./assets/depts/cengg.jpg"
+                              class="card-img-top"
+                           />
+                           <div class="card-body">
+                              <h5 class="card-title">
+                                 Civil Engineering
+                              </h5>
+                              <p class="card-text">
+                                 The objective of the department is to provide
+                                 Sate-of-the Art education in Civil Engineering
+                                 that enables new generation of Civil Engineers
+                                 to meet the challenges of the future
+                                 construction industry, promote a sense of
+                                 scholarship, leadership and service to the
+                                 mankind through creativity and innovations.
+                              </p>
+                              <div class="right">
+                                 <a href="#" class="btn btn-primary"
+                                    >View More</a
+                                 >
+                              </div>
+                           </div>
+                        </div>
+                     </section>
+                     <section class="col col-4">
+                        <div class="card d-block w-100">
+                           <img
+                              src="./assets/depts/engg.jpg"
+                              class="card-img-top"
+                           />
+                           <div class="card-body">
+                              <h5 class="card-title">Electrical Engineering</h5>
+                              <p class="card-text">
+                                 The vision/Mission of the department is to
+                                 provide Sate-of-the-Art education in Electrical
+                                 Engineering that enables new generation of
+                                 Electrical Engineers to meet the challenges of
+                                 the future, promote a sense of scholarship,
+                                 leadership and service to the mankind through
+                                 creativity and innovations.
+                              </p>
+                              <div class="right">
+                                 <a href="#" class="btn btn-primary"
+                                    >View More</a
+                                 >
+                              </div>
+                           </div>
+                        </div>
+                     </section>
+                  </section>
+               </div>
+               <div class="carousel-item">
+                  <section class="row">
+                     <section class="col col-4">
+                        <div class="card d-block w-100">
+                           <img
+                              src="./assets/depts/arch.jpg"
+                              class="card-img-top"
+                           />
+                           <div class="card-body">
+                              <h5 class="card-title">Architecture</h5>
+                              <p class="card-text">
+                                 The school is dedicated to advancing the
+                                 understanding of Architectural theory & Design,
+                                 to build socially responsible architects
+                                 rather, not to compete but, to produce
+                                 architecture which can be marked at global
+                                 Level.
+                              </p>
+                              <div class="right">
+                                 <a href="#" class="btn btn-primary"
+                                    >View More</a
+                                 >
+                              </div>
+                           </div>
+                        </div>
+                     </section>
+                     <section class="col col-4">
+                        <div class="card d-block w-100">
+                           <img
+                              src="./assets/depts/hlt.jpg"
+                              class="card-img-top"
+                           />
+                           <div class="card-body">
+                              <h5 class="card-title">
+                                 Health Sciences
+                              </h5>
+                              <p class="card-text">
+                                 Physical therapy is an essential segment of
+                                 modern health care system. It is a 'science of
+                                 healing and art of caring'. It pertains to the
+                                 clinical examination. Evaluation, assessment,
+                                 diagnosis
+                              </p>
+                              <div class="right">
+                                 <a href="#" class="btn btn-primary"
+                                    >View More</a
+                                 >
+                              </div>
+                           </div>
+                        </div>
+                     </section>
+                     <section class="col col-4">
+                        <div class="card d-block w-100">
+                           <img
+                              src="./assets/depts/eng.jpg"
+                              class="card-img-top"
+                           />
+                           <div class="card-body">
+                              <h5 class="card-title">English</h5>
+                              <p class="card-text">
+                                 The programs offered by Department of English,
+                                 CUSIT, reflect the noble mission of the
+                                 university. The keynote of the mission is
+                                 qualitative improvement in teaching and
+                                 producing graduate who can hold their own in
+                                 the face of 21st century and its global
+                                 challenges.
+                              </p>
+                              <div class="right">
+                                 <a href="#" class="btn btn-primary"
+                                    >View More</a
+                                 >
+                              </div>
+                           </div>
+                        </div>
+                     </section>
+                  </section>
+               </div>
+            </div>
+         </div>
+         <section class="row mt-5 mb-5">
+            <aside class="col">
+               <div class="card">
+                  <img src="./assets/res/ta.jpg" class="card-img-top" />
+                  <div class="card-body">
+                     <h5 class="card-title">Thematic Area</h5>
+                     <p class="card-text">
+                        Criteria of selecting a topic and area for research by
+                        the academic world is neither well defined nor well
+                        implemented, so as a result areas chosen are dependent
+                        on ease and interest of the faculty members who are
+                        facilitating and the student who are working, research
+                        is only done to secure a degree in a certain field. In
+                        order to curb the issue City University has given the
+                        idea of working on thematic areas.
+                     </p>
+                     <div class="center">
+                        <a href="#" class="btn btn-outline-primary"
+                           >View Thematic Areas</a
+                        >
+                     </div>
+                  </div>
+               </div>
+            </aside>
+            <aside class="col">
+               <div class="card">
+                  <img src="./assets/res/coe.jpg" class="card-img-top" />
+                  <div class="card-body">
+                     <h5 class="card-title">Center of Excellence</h5>
+                     <p class="card-text">
+                        A Center of Excellence (CoE) is a group of people with
+                        specialized skills and expertise whose job is to provide
+                        leadership and purposely disseminate that knowledge
+                        within your organization. CoEs should not be confused
+                        with Communities of Practice (CoPs), discussed later,
+                        and are sometimes referred to as guilds. In the last few
+                        years we’ve seen Agile CoEs, Testing CoEs, created
+                        within organizations to help their continuous
+                        improvement efforts.
+                     </p>
+                     <div class="center">
+                        <a href="#" class="btn btn-outline-primary"
+                           >View Center of Excellence</a
+                        >
+                     </div>
+                  </div>
+               </div>
+            </aside>
+         </section>
       </div>
       <script src="./js/bootstrap.min.js"></script>
    </body>
