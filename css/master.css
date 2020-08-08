@@ -2,10 +2,10 @@
    text-align: center;
 }
 .left {
-   text-align: left;
+   float: left;
 }
 .right {
-   text-align: right;
+   float: right;
 }
 footer {
    background-color: #f0f0f0;
